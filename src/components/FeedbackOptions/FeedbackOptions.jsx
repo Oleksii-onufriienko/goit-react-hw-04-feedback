@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import '../FeedbackOptions/FeedbackOptions.css';
 const buttonsList = ['good','neutral','bad']
 export function FeedbackOptions({handleOnClick}) {
-    
     return (
         <div className="buttons__container">
             {buttonsList.map(e => {
